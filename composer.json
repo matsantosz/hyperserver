@@ -62,7 +62,7 @@
             "rm -rf runtime/container"
         ],
         "cs-fix": "php-cs-fixer fix $1",
-        "analyse": "phpstan analyse --memory-limit 300M -l 0",
+        "analyse": "phpstan analyse --memory-limit 300M -c phpstan.neon",
         "start": [
             "Composer\\Config::disableProcessTimeout",
             "php ./bin/hyperf.php start"
