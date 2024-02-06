@@ -23,7 +23,7 @@ return [
             'port' => 7171,
             'sock_type' => SWOOLE_SOCK_TCP,
             'callbacks' => [
-                Event::ON_RECEIVE => [App\Controller\GameServer::class, 'onReceive'],
+                Event::ON_RECEIVE => [App\Controller\GameServerController::class, 'onReceive'],
                 Event::ON_CLOSE => fn () => print('Closed connection.' . PHP_EOL)
             ],
             'settings' => [

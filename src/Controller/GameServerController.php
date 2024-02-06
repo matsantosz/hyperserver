@@ -6,7 +6,7 @@ namespace App\Controller;
 
 use Hyperf\Contract\OnReceiveInterface;
 
-class GameServer implements OnReceiveInterface
+class GameServerController implements OnReceiveInterface
 {
     public function onReceive($server, int $fd, int $reactorId, string $data): void
     {
