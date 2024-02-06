@@ -1,16 +1,15 @@
 {
-    "name": "hyperf/hyperf-skeleton",
+    "name": "tibia/hyperserver",
+    "description": "Free MMORPG server emulator based on Tibia (CipSoft) written in PHP.",
     "type": "project",
-    "keywords": [
-        "php",
-        "swoole",
-        "framework",
-        "hyperf",
-        "microservice",
-        "middleware"
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mat Santos",
+            "email": "matsantos.ct@gmail.com",
+            "homepage": "https://github.com/matsantosz"
+        }
     ],
-    "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
-    "license": "Apache-2.0",
     "require": {
         "php": ">=8.1",
         "hyperf/cache": "~3.1.0",
